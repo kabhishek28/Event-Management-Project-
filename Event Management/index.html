@@ -58,16 +58,49 @@
             left: 5%;
             top: 55%;
             transform: translateY(-50%);
-            z-index: 1;
-
         }
+
+        .extra-large-text1 {
+            color: white;
+            font-size: 4rem;
+            font-weight: bold;
+            margin: 0;
+            opacity: 0;
+        }
+
+        /* Animation */
+        @keyframes slideIn {
+            0% {
+                transform: translateX(-200px);
+                opacity: 0;
+            }
+
+            100% {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        .animate-text {
+            animation: slideIn 1s ease-out forwards;
+        }
+
+        /* Delay for second and third lines */
+        .delay-1 {
+            animation-delay: 0.5s;
+        }
+
+        .delay-2 {
+            animation-delay: 1s;
+        }
+
 
         .extra-large-text1 {
             font-size: 7rem;
             /* adjust size as you like */
             font-weight: 900;
             /* extra bold */
-            color: rgba(255, 255, 255, 0.852);
+            color: rgba(0, 0, 0, 0.748);
         }
 
         .webName {
@@ -78,18 +111,20 @@
 
 <body>
 
-    <!-- Fullscreen Background Image -->
-    <img src="images/background/image3.png" class="fullscreen-bg" alt="Full Background">
+    <video class="fullscreen-bg" autoplay muted loop playsinline>
+        <source src="video/istockphoto-1365468767-640_adpp_is.mp4" type="video/mp4">
+        
+    </video>
 
     <!-- Navbar -->
-    <nav class="navbar sticky-top bg-body-tertiary">
+    <nav class="navbar  sticky-top bg-body-tertiary " data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <span class="fst-italic fs-2 webName">Festivo</span>
             </a>
             <ul class="nav justify-content-end">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Home</a>
+                    <a class="nav-link active " href="#">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="#">About Us</a>
@@ -113,7 +148,7 @@
                 <br>
                 <!------------------ Sing up from--------- -->
                 <div class="row g-3">
-                    <div class="col" >
+                    <div class="col">
                         <input type="text" class="form-control  " placeholder="First name" aria-label="First name">
                     </div>
                     <div class="col">
@@ -147,12 +182,11 @@
             </div>
         </div>
     </div>
-    <div class="left-center">
-        <h1 class="   extra-large-text1 ">
-            CREATE <h2 class="   extra-large-text1 ">MEMORIES,</h2>
-        </h1>
-        <h3 class="   extra-large-text1 ">NOT CHAOS.</h3>
 
+    <div class="left-center">
+        <h1 class="extra-large-text1 animate-text">CREATE</h1>
+        <h2 class="extra-large-text1 animate-text delay-1">MEMORIES,</h2>
+        <h3 class="extra-large-text1 animate-text delay-2">NOT CHAOS.</h3>
     </div>
 
 

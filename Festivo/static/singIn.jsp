@@ -67,7 +67,7 @@
             /* adjust size as you like */
             font-weight: 900;
             /* extra bold */
-            color: rgba(255, 255, 255, 0.852);
+            color: rgba(0, 0, 0, 0.748);
         }
 
         .webName {
@@ -79,28 +79,28 @@
 <body>
 
      <video class="fullscreen-bg" autoplay muted loop playsinline>
-        <source src="video/istockphoto-1490263997-640_adpp_is.mp4" type="video/mp4">
+        <source src="video/istockphoto-1365468767-640_adpp_is.mp4" type="video/mp4">
     </video>
     
     <!-- Navbar -->
-    <nav class="navbar sticky-top bg-body-tertiary">
+    <nav class="navbar sticky-top bg-body-tertiary" data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <span class="fst-italic fs-2 webName">Festivo</span>
             </a>
             <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Review</a>
-                </li>
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link active" href="#">Home</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link active" href="#">About Us</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link active" href="#">Contact</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link active" href="#">Review</a>-->
+<!--                </li>-->
                 <li class="nav-item">
                     <a class="nav-link active" href="singUp.jsp">SingUp</a>
                 </li>

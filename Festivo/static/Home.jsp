@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Festivo | Sign In</title>
+    <title>Festivo | home </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap CSS -->
@@ -50,7 +50,7 @@
      <img src="images/banner/image.png" class="fullscreen-bg" alt="Full Background">
 
     <!-- Navbar -->
-    <nav class="navbar sticky-top bg-body-tertiary">
+    <nav class="navbar sticky-top bg-body-tertiary" data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <span class="fst-italic fs-2 webName">Festivo</span>

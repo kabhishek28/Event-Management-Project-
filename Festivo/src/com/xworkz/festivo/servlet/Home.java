@@ -21,7 +21,7 @@ public class Home extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String email = req.getParameter("emailName");
         String password = req.getParameter("passwordName");
-        System.out.println("eeeee");
+//        System.out.println("eeeee");
         SingInDTO singInDTO = new SingInDTO(email, password);
         SingUpService singUpService = new SingUpServiceImplementation();
         String check = singUpService.validationAndSavee(singInDTO) ;

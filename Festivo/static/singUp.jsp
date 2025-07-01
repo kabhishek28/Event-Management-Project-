@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Festivo | Sign Up</title>
+    <title>Festivoo | Sign Up</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap CSS -->
@@ -123,18 +123,18 @@
             <span class="fst-italic fs-2 webName">Festivo</span>
         </a>
         <ul class="nav justify-content-end">
-            <li class="nav-item">
-                <a class="nav-link active " href="#">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" href="#">About Us</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" href="#">Contact</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" href="#">Review</a>
-            </li>
+<!--            <li class="nav-item">-->
+<!--                <a class="nav-link active " href="#">Home</a>-->
+<!--            </li>-->
+<!--            <li class="nav-item">-->
+<!--                <a class="nav-link active" href="#">About Us</a>-->
+<!--            </li>-->
+<!--            <li class="nav-item">-->
+<!--                <a class="nav-link active" href="#">Contact</a>-->
+<!--            </li>-->
+<!--            <li class="nav-item">-->
+<!--                <a class="nav-link active" href="#">Review</a>-->
+<!--            </li>-->
             <li class="nav-item">
                 <a class="nav-link active" href="singUp.jsp">SingUp</a>
             </li>

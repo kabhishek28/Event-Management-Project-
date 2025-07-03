@@ -42,6 +42,12 @@
         .webName {
             margin-left: 20px;
         }
+
+        .siledback{
+            padding: 30px 50px 50px 50px;
+
+
+        }
     </style>
 </head>
 
@@ -78,54 +84,61 @@
         </div>
     </nav>
 
-   
-    <div id="carouselExampleAutoplaying" class="carousel slide " data-bs-ride="carousel" data-bs-interval="2000">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="images/background/image1.png" class="d-block w-100 " style="height: 50vh;" alt="...">
+   <div class="siledback">
+    <div id="carouselExampleAutoplaying" class="carousel slide  " data-bs-ride="carousel" data-bs-interval="2000" >
+        <div class="carousel-inner rounded-5">
+            <div class="carousel-item active ">
+                <img src="images/background/image1.png" class="d-block w-100 " style="height: 50vh; " alt="...">
             </div>
             <div class="carousel-item">
-                <img src="images/background/image2.png" class="d-block w-100" style="height: 50vh;" alt="...">
+                <img src="images/background/image2.png" class="d-block w-100" style="height: 50vh; " alt="...">
             </div>
             <div class="carousel-item">
-                <img src="images/background/image3.png" class="d-block w-100" style="height: 50vh;" alt="...">
+                <img src="images/background/image3.png" class="d-block w-100" style="height: 50vh; " alt="...">
             </div>
         </div>
+    </div>
+   </div>
+
+     <div class="event types " style="border: solid 2px black;">
+         <div style="margin:20px;">
+             sdfghjkl;
+         </div>
+     </div>
+
+
+
+
+<!--        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"-->
+<!--            data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">-->
+<!--            <h4 id="scrollspyHeading1">First heading</h4>-->
+<!--            <p>...</p>-->
+<!--            <h4 id="scrollspyHeading2">Second heading</h4>-->
+<!--            <p>...</p>-->
+<!--            <h4 id="scrollspyHeading3">Third heading</h4>-->
+<!--            <p>...</p>-->
+<!--            <h4 id="scrollspyHeading4">Fourth heading</h4>-->
+<!--            <p>...</p>-->
+<!--            <h4 id="scrollspyHeading5">Fifth heading</h4>-->
+<!--            <p>...</p>-->
+<!--        </div>-->
 
 
 
 
 
-        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
-            data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
-            <h4 id="scrollspyHeading1">First heading</h4>
-            <p>...</p>
-            <h4 id="scrollspyHeading2">Second heading</h4>
-            <p>...</p>
-            <h4 id="scrollspyHeading3">Third heading</h4>
-            <p>...</p>
-            <h4 id="scrollspyHeading4">Fourth heading</h4>
-            <p>...</p>
-            <h4 id="scrollspyHeading5">Fifth heading</h4>
-            <p>...</p>
-        </div>
-
-
-
-
-
-        <div id="carouselExampleAutoplaying" class="carousel slide " data-bs-ride="carousel" data-bs-interval="2000">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="images/background/image1.png" class="d-block w-100 " style="height: 50vh;" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="images/background/image2.png" class="d-block w-100" style="height: 50vh;" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="images/background/image3.png" class="d-block w-100" style="height: 50vh;" alt="...">
-                </div>
-            </div>
+<!--        <div id="carouselExampleAutoplaying" class="carousel slide " data-bs-ride="carousel" data-bs-interval="2000">-->
+<!--            <div class="carousel-inner">-->
+<!--                <div class="carousel-item active">-->
+<!--                    <img src="images/background/image1.png" class="d-block w-100 " style="height: 50vh;" alt="...">-->
+<!--                </div>-->
+<!--                <div class="carousel-item">-->
+<!--                    <img src="images/background/image2.png" class="d-block w-100" style="height: 50vh;" alt="...">-->
+<!--                </div>-->
+<!--                <div class="carousel-item">-->
+<!--                    <img src="images/background/image3.png" class="d-block w-100" style="height: 50vh;" alt="...">-->
+<!--                </div>-->
+<!--            </div>-->
             <!-- <button style="height: 10vh;" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
@@ -135,7 +148,11 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button> -->
-        </div>
+
+
+     <br>
+     <br>
+     <br>
 
         <h4>Browse by Category</h4>
 
@@ -151,7 +168,7 @@
 
 
 
-<a class="nrl _74 NtY S9z eEj CCY kVc oCZ Tbt L4E e8F BG7" href="/search/pins/?q=easy%20chicken%20dinner" rel=""
+<a class="nrl _74 NtY S9z eEj CCY kVc oCZ Tbt L4E e8F BG7 mt-5" href="/search/pins/?q=easy%20chicken%20dinner" rel=""
     tabindex="0">
     <div class="MIw zI7 iyn Hsu" style="top: 0px; right: 15px;">
         <div class="Pj7 sLG XiG ho- m1e" style="width: 178px; height: 218px;">

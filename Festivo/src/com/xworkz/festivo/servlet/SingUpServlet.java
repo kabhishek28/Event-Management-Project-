@@ -12,8 +12,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(urlPatterns = "/singin",loadOnStartup = 1)
-public class SingIn extends HttpServlet {
+@WebServlet(urlPatterns = "/singIn",loadOnStartup = 1)
+public class SingUpServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 

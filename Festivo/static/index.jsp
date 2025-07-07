@@ -94,7 +94,6 @@
             animation-delay: 1s;
         }
 
-
         .extra-large-text1 {
             font-size: 7rem;
             /* adjust size as you like */
@@ -113,7 +112,6 @@
 
     <video class="fullscreen-bg" autoplay muted loop playsinline>
         <source src="video/istockphoto-1365468767-640_adpp_is.mp4" type="video/mp4">
-        
     </video>
 
     <!-- Navbar -->
@@ -136,28 +134,20 @@
 <!--                    <a class="nav-link active" href="#">Review</a>-->
 <!--                </li>-->
                 <li class="nav-item">
-                    <a class="nav-link active" href="singUp">SingUp</a>
+                    <a class="nav-link active" href="singUpPage">SingUp</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="home">SingIn</a>
+                    <a class="nav-link active" href="directSingIn">SingIn</a>
                 </li>
             </ul>
         </div>
     </nav>
-
-
 
     <div class="left-center">
         <h1 class="extra-large-text1 animate-text">CREATE</h1>
         <h2 class="extra-large-text1 animate-text delay-1">MEMORIES,</h2>
         <h3 class="extra-large-text1 animate-text delay-2">NOT CHAOS.</h3>
     </div>
-
-
-
-
-
-
 
 </body>
 

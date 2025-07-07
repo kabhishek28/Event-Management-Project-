@@ -102,10 +102,10 @@
 <!--                    <a class="nav-link active" href="#">Review</a>-->
 <!--                </li>-->
                 <li class="nav-item">
-                    <a class="nav-link active" href="singUp">SingUp</a>
+                    <a class="nav-link active" href="singUpPage">SingUp</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="singIn.jsp">SingIn</a>
+                    <a class="nav-link active" href="directSingIn">SingIn</a>
                 </li>
             </ul>
         </div>

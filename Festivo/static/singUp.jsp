@@ -136,10 +136,10 @@
 <!--                <a class="nav-link active" href="#">Review</a>-->
 <!--            </li>-->
             <li class="nav-item">
-                <a class="nav-link active" href="singUp">SingUp</a>
+                <a class="nav-link active" href="singUpPage">SingUp</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" href="home">SingIn</a>
+                <a class="nav-link active" href="directSingIn">SingIn</a>
             </li>
         </ul>
     </div>
@@ -153,7 +153,7 @@
             <h6 class="card-subtitle mb-2 text-muted">Sing up your account</h6>
 
             <!------------------ Sing up from--------- -->
-            <form action="singin" method="post">
+            <form action="singIn" method="post">
                 <div class="row g-3">
                     <div class="col">
 

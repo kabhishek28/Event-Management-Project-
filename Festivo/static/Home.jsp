@@ -75,11 +75,11 @@
                     <a class="nav-link active" href="#">Review</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="singUp.jsp">SingUp</a>
+                    <a class="nav-link active" href="index.jsp">LogOut</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">SingIn</a>
-                </li>
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link active" href="#">SingIn</a>-->
+<!--                </li>-->
             </ul>
         </div>
     </nav>
